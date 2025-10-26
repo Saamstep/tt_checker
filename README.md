@@ -63,20 +63,5 @@ Troubleshooting
 - If expressions use variable names not present in the CSV's input columns you'll get an error listing unknown variables.
 - Ensure CSV rows contain only 0 or 1 and match header column count.
 
-Example file in repo
-- /Users/samstep/Documents/projects/tt_checker/A1_0_ref.csv
-  A0,B1,B0,S2,S1,S0
-  0,0,0,0,0,0
-  0,0,1,0,0,1
-  0,1,0,0,1,0
-  0,1,1,0,1,1
-  1,0,0,0,0,1
-  1,0,1,0,1,0
-  1,1,0,0,1,1
-  1,1,1,1,0,0
-
-License
-- MIT-style permissive use is recommended for personal projects. (Add an explicit LICENSE file if needed.)
-
 Contact / Contributing
 - Open issues or PRs in the repository with minimal reproducer steps. Keep expressions, CSVs, and CLI command lines for debugging.
